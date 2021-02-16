@@ -13,7 +13,7 @@ import com.example.wordsapp.databinding.FragmentWordListBinding
 class WordListFragment : Fragment() {
     companion object {
         const val LETTER = "letter"
-        const val SEARCH_PREFIX = "WordListFragment"
+        const val SEARCH_PREFIX = "https://www.google.com/search?q="
     }
 
     private var _binding: FragmentWordListBinding? = null
